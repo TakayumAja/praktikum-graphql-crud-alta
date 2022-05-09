@@ -7,6 +7,8 @@ import Header from "../Header";
 
 // Import File Css
 import "./Home.module.css";
+import PassengerInputId from "../PassengerInputId";
+import ListPassangerId from "../ListPassengerId";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
       <Header />
       <ListPassenger />
       <PassengerInput />
+      <PassengerInputId />
+      <ListPassangerId />
     </div>
   );
 };

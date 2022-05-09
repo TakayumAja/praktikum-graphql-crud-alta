@@ -4,6 +4,10 @@ th {
   border: 1px solid black;
 }
 
+td button {
+  margin: 0px 8px;
+}
+
 .removeBorder {
   border: none;
 }

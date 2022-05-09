@@ -10,6 +10,8 @@ const ListPassenger = () => {
   if (loading) return <h1>Loading Maseeh....</h1>;
   if (error) return <h2>Something Wrong Maseeh...</h2>;
 
+  console.log(data);
+
   return (
     <div style={{ margin: "1rem auto" }}>
       <table cellPadding="5px" cellSpacing="0" style={{ margin: "1rem auto " }}>
@@ -18,7 +20,7 @@ const ListPassenger = () => {
             <th>Nama</th>
             <th>Umur</th>
             <th>Jenis Kelamin</th>
-            <th className="removeBorder">Hapus</th>
+            <th className="removeBorder">Action</th>
           </tr>
         </thead>
         <tbody>
